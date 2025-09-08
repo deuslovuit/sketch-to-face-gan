@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data files (large datasets)
+celebA/
+processed_data/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# Training output (large files)
+training_output/
+checkpoints/
+logs/
+samples/
+generated_faces/
+*.pth
+*.ckpt
+*.model
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# GPU/ROCm files
+.rocm/
+.hip/
+
+# System files
+*.exe
+*.msi
+*.deb
+*.rpm
